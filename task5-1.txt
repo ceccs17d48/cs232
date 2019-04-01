@@ -1,0 +1,103 @@
+Script started on Monday 01 April 2019 01:11:31 PM IST
+]0;clab1@clab1-Veriton-Series: ~clab1@clab1-Veriton-Series:~$ sftp cs17d48@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d48@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+examples.desktop    
+sftp> put result.txt
+Uploading result.txt to /home/cs17d48/result.txt
+
+result.txt                                      0%    0     0.0KB/s   --:-- ETA
+result.txt                                    100%   14KB  13.6KB/s   00:00    
+sftp> get result.txt
+Fetching /home/cs17d48/result.txt to result.txt
+
+/home/cs17d59/result.txt                        0%    0     0.0KB/s   --:-- ETA
+/home/cs17d59/result.txt                      100%   14KB  13.6KB/s   00:00    
+sftp> ls -l
+-rw-r--r--    1 cs17d48  cs17d        8980 Apr 20  2016 examples.desktop
+-rw-r--r--    1 cs17d48  cs17d       13902 Apr  1 10:35 result.txt
+sftp> ls -lt
+-rw-r--r--    1 cs17d48  cs17d       13902 Apr  1 10:35 result.txt
+-rw-r--r--    1 cs17d48  cs17d        8980 Apr 20  2016 examples.desktop
+sftp> ls -ltr
+-rw-r--r--    1 cs17d48  cs17d        8980 Apr 20  2016 examples.desktop
+-rw-r--r--    1 cs17d48  cs17d       13902 Apr  1 10:35 result.txt
+sftp> version
+SFTP protocol version 3
+sftp> mkdir s4d
+sftp> ls
+examples.desktop    result.txt          s4d                 
+sftp> help
+Available commands:
+bye                                Quit sftp
+cd path                            Change remote directory to 'path'
+chgrp grp path                     Change group of file 'path' to 'grp'
+chmod mode path                    Change permissions of file 'path' to 'mode'
+chown own path                     Change owner of file 'path' to 'own'
+df [-hi] [path]                    Display statistics for current directory or
+                                   filesystem containing 'path'
+exit                               Quit sftp
+get [-Ppr] remote [local]          Download file
+reget remote [local]		Resume download file
+help                               Display this help text
+lcd path                           Change local directory to 'path'
+lls [ls-options [path]]            Display local directory listing
+lmkdir path                        Create local directory
+ln [-s] oldpath newpath            Link remote file (-s for symlink)
+lpwd                               Print local working directory
+ls [-1afhlnrSt] [path]             Display remote directory listing
+lumask umask                       Set local umask to 'umask'
+mkdir path                         Create remote directory
+progress                           Toggle display of progress meter
+put [-Ppr] local [remote]          Upload file
+pwd                                Display remote working directory
+quit                               Quit sftp
+rename oldpath newpath             Rename remote file
+rm path                            Delete remote file
+rmdir path                         Remove remote directory
+symlink oldpath newpath            Symlink remote file
+version                            Show SFTP version
+!command                           Execute 'command' in local shell
+!                                  Escape to local shell
+?                                  Synonym for help
+sftp> lls
+abc.txt		examples.desktop		s3c27.c
+a.out		file				s3c27.c~
+binary		heap_sort.c			stack.c
+binary~		insertionsort.c			stack.c~
+binary.c	jdk-9.0.4_linux-x64_bin.tar.gz	stack.txt
+binary.c~	list_tasks.html			str.txt~
+c		list_tasks.html~		surya.html
+cal.sh		man				sys
+cec		mergesort.c			sys_calls.c
+CEC		mkdir				sys_calls.c~
+ceccs17d59	multiplestack1.c		Templates
+ceccs17d59.txt	Music				testdir
+cececs17d59	new				textdir
+Client.java	non.c				text.html
+cse		non.c~				text.html~
+CSE		nonrec.c			Untitled Document 1
+Desktop		nonrec.c~			Untitled Document 1~
+Documents	p2				url.l~
+Downloads	Pictures			u.txt~
+employee.txt	Public				Videos
+exam.c		quickr.c			word.c
+exam.c~		result.txt			word.c~
+sftp> v[Kpwd
+Remote working directory: /home/cs17d48
+sftp> put cs17[K[K[K[Kceccs17d48.txt
+Uploading ceccs17d59.txt to /home/cs17d48/ceccs17d48.txt
+
+ceccs17d48.txt                                  0%    0     0.0KB/s   --:-- ETA
+ceccs17d48.txt                                100% 4096     4.0KB/s   00:00    
+sftp> exit
+]0;clab1@clab1-Veriton-Series: ~clab1@clab1-Veriton-Series:~$ exit
+exit
+
+Script done on Monday 01 April 2019 01:36:15 PM IST
