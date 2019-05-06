@@ -1,0 +1,100 @@
+Script started on Thursday 25 April 2019 09:34:30 AM IST
+]0;clab1@CC2-26: ~[01;32mclab1@CC2-26[00m:[01;34m~[00m$ sudo apt install perl
+sudo: unable to resolve host CC2-26: Connection timed out
+[sudo] password for clab1: 
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 1%
+
+Reading state information... Done
+
+perl is already the newest version (5.22.1-9ubuntu0.6).
+The following packages were automatically installed and are no longer required:
+  linux-headers-4.8.0-36 linux-headers-4.8.0-36-generic
+  linux-image-4.8.0-36-generic linux-image-extra-4.8.0-36-generic
+  snapd-login-service
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 19 not upgraded.
+]0;clab1@CC2-26: ~[01;32mclab1@CC2-26[00m:[01;34m~[00m$ perl -v
+
+This is perl 5, version 22, subversion 1 (v5.22.1) built for x86_64-linux-gnu-thread-multi
+(with 73 registered patches, see perl -V for more detail)
+
+Copyright 1987-2015, Larry Wall
+
+Perl may be copied only under the terms of either the Artistic License or the
+GNU General Public License, which may be found in the Perl 5 source kit.
+
+Complete documentation for Perl, including FAQ lists, should be found on
+this system using "man perl" or "perldoc perl".  If you have access to the
+Internet, point your browser at http://www.perl.org/, the Perl Home Page.
+
+]0;clab1@CC2-26: ~[01;32mclab1@CC2-26[00m:[01;34m~[00m$ perl hello.perl
+Can't open perl script "hello.perl": No such file or directory
+]0;clab1@CC2-26: ~[01;32mclab1@CC2-26[00m:[01;34m~[00m$ perl hello.perl
+Can't locate warning.pm in @INC (you may need to install the warning module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.22.1 /usr/local/share/perl/5.22.1 /usr/lib/x86_64-linux-gnu/perl5/5.22 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.22 /usr/share/perl/5.22 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base .) at hello.perl line 2.
+BEGIN failed--compilation aborted at hello.perl line 2.
+]0;clab1@CC2-26: ~[01;32mclab1@CC2-26[00m:[01;34m~[00m$ perl hello.perl
+Can't locate warning.pm in @INC (you may need to install the warning module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.22.1 /usr/local/share/perl/5.22.1 /usr/lib/x86_64-linux-gnu/perl5/5.22 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.22 /usr/share/perl/5.22 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base .) at hello.perl line 2.
+BEGIN failed--compilation aborted at hello.perl line 2.
+]0;clab1@CC2-26: ~[01;32mclab1@CC2-26[00m:[01;34m~[00m$ perl hello.perl
+Can't locate warning.pm in @INC (you may need to install the warning module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.22.1 /usr/local/share/perl/5.22.1 /usr/lib/x86_64-linux-gnu/perl5/5.22 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.22 /usr/share/perl/5.22 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base .) at hello.perl line 2.
+BEGIN failed--compilation aborted at hello.perl line 2.
+]0;clab1@CC2-26: ~[01;32mclab1@CC2-26[00m:[01;34m~[00m$ 
+[K]0;clab1@CC2-26: ~[01;32mclab1@CC2-26[00m:[01;34m~[00m$ perl hello.perl[K[K[Kl
+Hello World
+]0;clab1@CC2-26: ~[01;32mclab1@CC2-26[00m:[01;34m~[00m$ su[K[Kperl hello.pl[1Po.pl[1Po.pl[C[1P.pl[1P.pl[1P.pls.plu.plm.pl
+Unrecognized character \xE2; marked by <-- HERE after print <-- HERE near column 7 at sum.pl line 5.
+]0;clab1@CC2-26: ~[01;32mclab1@CC2-26[00m:[01;34m~[00m$ perl sum.pl
+Unrecognized character \xE2; marked by <-- HERE after print <-- HERE near column 7 at sum.pl line 2.
+]0;clab1@CC2-26: ~[01;32mclab1@CC2-26[00m:[01;34m~[00m$ perl sum.pl
+Unrecognized character \xE2; marked by <-- HERE after print <-- HERE near column 7 at sum.pl line 2.
+]0;clab1@CC2-26: ~[01;32mclab1@CC2-26[00m:[01;34m~[00m$ perl sum.pl
+Unrecognized character \xE2; marked by <-- HERE after print <-- HERE near column 7 at sum.pl line 2.
+]0;clab1@CC2-26: ~[01;32mclab1@CC2-26[00m:[01;34m~[00m$ perl sum.pl
+enter two numbers  : 2 3
+3
+sum=
+]0;clab1@CC2-26: ~[01;32mclab1@CC2-26[00m:[01;34m~[00m$ perl sum.pl
+enter two numbers2
+3
+sum=5
+]0;clab1@CC2-26: ~[01;32mclab1@CC2-26[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Thursday 25 April 2019 10:03:21 AM IST
+
+
+\* perl programs */
+ hello world program
+
+#!/usr/bin/perl
+use warnings;
+print("Hello World\n");
+
+sum of two numbers
+#! /usr/bin/perl
+print "enter two numbers";
+$a=<>;
+$b=<>;
+my $sum=$a+$b;
+print "sum=$sum\n";
