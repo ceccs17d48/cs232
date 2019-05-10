@@ -1,0 +1,62 @@
+Script started on Thursday 11 April 2019 11:51:29 AM IST
+]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ sudo apy[Kt-get install vsftpd
+[sudo] password for s4d1: 
+paSorry, try again.
+[sudo] password for s4d1: 
+Sorry, try again.
+[sudo] password for s4d1: 
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+vsftpd is already the newest version (3.0.3-3ubuntu2).
+0 upgraded, 0 newly installed, 0 to remove and 305 not upgraded.
+]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ ftp localhost
+Connected to localhost.
+220 (vsFTPd 3.0.3)
+Name (localhost:s4d1): s4d1
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> cd Desktop
+250 Directory successfully changed.
+ftp> ls
+200 PORT command successful. Consider using PASV.
+150 Here comes the directory listing.
+-rw-rw-r--    1 1013     1013          133 Apr 11 11:25 Untitled Document
+drwxrwxr-x    2 1013     1013         4096 Feb 11 17:32 Untitled Folder
+-rw-rw-r--    1 1013     1013          141 Apr 11 11:23 diff.pl
+-rw-r--r--    1 1013     1013        12700 Apr 04 10:29 result1.txt
+-rw-rw-r--    1 1013     1013           34 Apr 11 11:10 welcome.pl
+226 Directory send OK.
+ftp> pwd
+257 "/home/s4d1/Desktop" is the current directory
+ftp> exit
+221 Goodbye.
+]0;s4d1@CC2-29: ~[01;32ms4d1@CC2-29[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Thursday 11 April 2019 11:53:45 AM IST

@@ -1,0 +1,1138 @@
+Script started on Thursday 09 May 2019 09:26:17 AM IST
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt update
+[sudo] password for cec: 
+[33m
+0% [Working][0m
+            
+Hit:1 http://ppa.launchpad.net/ondrej/php/ubuntu xenial InRelease
+[33m
+0% [Waiting for headers] [Waiting for headers][0m[33m
+0% [1 InRelease gpgv 23.9 kB] [Waiting for headers] [Waiting for headers][0m[33m
+                                                                         
+0% [Waiting for headers] [Waiting for headers][0m
+                                              
+Hit:2 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+[33m
+                                              
+0% [Waiting for headers][0m[33m
+0% [2 InRelease gpgv 247 kB] [Waiting for headers] [Waiting for headers][0m[33m
+                                                                        
+0% [Waiting for headers] [Waiting for headers][0m
+                                              
+Hit:3 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease
+[33m
+                                              
+0% [Waiting for headers][0m[33m
+0% [3 InRelease gpgv 109 kB] [Waiting for headers] [Waiting for headers][0m[33m
+                                                                        
+0% [Waiting for headers] [Waiting for headers][0m
+                                              
+Hit:4 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease
+[33m
+                                              
+0% [Waiting for headers][0m[33m
+0% [4 InRelease gpgv 107 kB] [Waiting for headers][0m[33m
+                                                  
+0% [Waiting for headers][0m
+                        
+Hit:5 http://security.ubuntu.com/ubuntu xenial-security InRelease
+[33m
+                        
+0% [Working][0m[33m
+0% [5 InRelease gpgv 109 kB][0m[33m
+                            
+20% [Working][0m
+             
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 1%
+
+Reading package lists... 4%
+
+Reading package lists... 4%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 33%
+
+Reading package lists... 33%
+
+Reading package lists... 55%
+
+Reading package lists... 56%
+
+Reading package lists... 56%
+
+Reading package lists... 69%
+
+Reading package lists... 69%
+
+Reading package lists... 69%
+
+Reading package lists... 69%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 83%
+
+Reading package lists... 83%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 89%
+
+Reading package lists... 89%
+
+Reading package lists... 91%
+
+Reading package lists... 91%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 1%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+All packages are up to date.
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt install apache2
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+apache2 is already the newest version (2.4.18-2ubuntu3.10).
+The following packages were automatically installed and are no longer required:
+  libapache2-mod-php7.0 libevent-core-2.0-5 libsdl2-image-2.0-0 libsodium18
+  php7.0 php7.0-cli php7.0-common php7.0-json php7.0-mysql php7.0-opcache
+  php7.0-readline snapd-login-service supertux-data zlib1g-dev
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo systemctl enable apache2
+apache2.service is not a native service, redirecting to systemd-sysv-install
+Executing /lib/systemd/systemd-sysv-install enable apache2
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get install mariadb-server mariadb-client
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+mariadb-client is already the newest version (10.0.38-0ubuntu0.16.04.1).
+mariadb-server is already the newest version (10.0.38-0ubuntu0.16.04.1).
+The following packages were automatically installed and are no longer required:
+  libapache2-mod-php7.0 libevent-core-2.0-5 libsdl2-image-2.0-0 libsodium18
+  php7.0 php7.0-cli php7.0-common php7.0-json php7.0-mysql php7.0-opcache
+  php7.0-readline snapd-login-service supertux-data zlib1g-dev
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo mysql_secure_installation
+
+NOTE: RUNNING ALL PARTS OF THIS SCRIPT IS RECOMMENDED FOR ALL MariaDB
+      SERVERS IN PRODUCTION USE!  PLEASE READ EACH STEP CAREFULLY!
+
+In order to log into MariaDB to secure it, we'll need the current
+password for the root user.  If you've just installed MariaDB, and
+you haven't set the root password yet, the password will be blank,
+so you should just press enter here.
+
+Enter current password for root (enter for none): 
+OK, successfully used password, moving on...
+
+Setting the root password ensures that nobody can log into the MariaDB
+root user without the proper authorisation.
+
+You already have a root password set, so you can safely answer 'n'.
+
+Change the root password? [Y/n] n
+ ... skipping.
+
+By default, a MariaDB installation has an anonymous user, allowing anyone
+to log into MariaDB without having to have a user account created for
+them.  This is intended only for testing, and to make the installation
+go a bit smoother.  You should remove them before moving into a
+production environment.
+
+Remove anonymous users? [Y/n] n
+ ... skipping.
+
+Normally, root should only be allowed to connect from 'localhost'.  This
+ensures that someone cannot guess at the root password from the network.
+
+Disallow root login remotely? [Y/n] n
+ ... skipping.
+
+By default, MariaDB comes with a database named 'test' that anyone can
+access.  This is also intended only for testing, and should be removed
+before moving into a production environment.
+
+Remove test database and access to it? [Y/n] n
+ ... skipping.
+
+Reloading the privilege tables will ensure that all changes made so far
+will take effect immediately.
+
+Reload privilege tables now? [Y/n] n
+ ... skipping.
+
+Cleaning up...
+
+All done!  If you've completed all of the above steps, your MariaDB
+installation should now be secure.
+
+Thanks for using MariaDB!
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo mysql -u root -p
+Enter password: 
+(B[0;1mWelcome to the MariaDB monitor.  Commands end with ; or \g.
+(B[m(B[0;1mYour MariaDB connection id is 35
+Server version: 10.0.38-MariaDB-0ubuntu0.16.04.1 Ubuntu 16.04
+
+(B[m(B[0;1mCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+(B[m(B[0;1mType 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+(B[mMariaDB [(none)]> exit
+(B[0;1mBye
+(B[m]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt-get install software-properties-common
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+software-properties-common is already the newest version (0.96.20.8).
+The following packages were automatically installed and are no longer required:
+  libapache2-mod-php7.0 libevent-core-2.0-5 libsdl2-image-2.0-0 libsodium18
+  php7.0 php7.0-cli php7.0-common php7.0-json php7.0-mysql php7.0-opcache
+  php7.0-readline snapd-login-service supertux-data zlib1g-dev
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo add-apt-repository ppa:ondrej/php
+ Co-installable PHP versions: PHP 5.6, PHP 7.x and most requested extensions are included. Only Supported Versions of PHP (http://php.net/supported-versions.php) for Supported Ubuntu Releases (https://wiki.ubuntu.com/Releases) are provided. Don't ask for end-of-life PHP versions or Ubuntu release, they won't be provided.
+
+Debian oldstable and stable packages are provided as well: https://deb.sury.org/#debian-dpa
+
+You can get more information about the packages at https://deb.sury.org
+
+BUGS&FEATURES: This PPA now has a issue tracker:
+https://deb.sury.org/#bug-reporting
+
+CAVEATS:
+1. If you are using php-gearman, you need to add ppa:ondrej/pkg-gearman
+2. If you are using apache2, you are advised to add ppa:ondrej/apache2
+3. If you are using nginx, you are advise to add ppa:ondrej/nginx-mainline
+   or ppa:ondrej/nginx
+
+PLEASE READ: If you like my work and want to give me a little motivation, please consider donating regularly: https://donate.sury.org/
+
+WARNING: add-apt-repository is broken with non-UTF-8 locales, see 
+https://github.com/oerdnj/deb.sury.org/issues/56 for workaround:
+
+# LC_ALL=C.UTF-8 add-apt-repository ppa:ondrej/php
+ More info: https://launchpad.net/~ondrej/+archive/ubuntu/php
+Press [ENTER] to continue or ctrl-c to cancel adding it
+
+gpg: keyring `/tmp/tmp83nh9l_y/secring.gpg' created
+gpg: keyring `/tmp/tmp83nh9l_y/pubring.gpg' created
+gpg: requesting key E5267A6C from hkp server keyserver.ubuntu.com
+gpg: /tmp/tmp83nh9l_y/trustdb.gpg: trustdb created
+gpg: key E5267A6C: public key "Launchpad PPA for Ondřej Surý" imported
+gpg: Total number processed: 1
+gpg:               imported: 1  (RSA: 1)
+OK
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo apt install php7.2 libapache2-mod-php7.2 php7.2-common  
+php7.2-mbstring php7.2-xmlrpc php7.2-soap php7.2-gd php7.2-xml php7.2-intl php7. 
+2-mysql php7.2-cli php7.2-zip php7.2-curl
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 1%
+
+Reading package lists... 4%
+
+Reading package lists... 4%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 33%
+
+Reading package lists... 33%
+
+Reading package lists... 56%
+
+Reading package lists... 56%
+
+Reading package lists... 61%
+
+Reading package lists... 69%
+
+Reading package lists... 69%
+
+Reading package lists... 69%
+
+Reading package lists... 69%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 83%
+
+Reading package lists... 83%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 89%
+
+Reading package lists... 89%
+
+Reading package lists... 91%
+
+Reading package lists... 91%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 93%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+The following packages were automatically installed and are no longer required:
+  libapache2-mod-php7.0 libevent-core-2.0-5 libsdl2-image-2.0-0 libsodium18
+  php7.0 php7.0-cli php7.0-common php7.0-json php7.0-mysql php7.0-opcache
+  php7.0-readline snapd-login-service supertux-data zlib1g-dev
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libicu64 libxmlrpc-epi0 libzip4 php7.2-json php7.2-opcache php7.2-readline
+Suggested packages:
+  php-pear
+The following NEW packages will be installed:
+  libapache2-mod-php7.2 libicu64 libxmlrpc-epi0 libzip4 php7.2 php7.2-cli
+  php7.2-common php7.2-curl php7.2-gd php7.2-intl php7.2-json php7.2-mbstring
+  php7.2-mysql php7.2-opcache php7.2-readline php7.2-soap php7.2-xml
+  php7.2-xmlrpc php7.2-zip
+0 upgraded, 19 newly installed, 0 to remove and 0 not upgraded.
+Need to get 13.3 MB of archives.
+After this operation, 53.9 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m
+0% [Working][0m
+            
+Get:1 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 php7.2-common amd64 7.2.18-1+ubuntu16.04.1+deb.sury.org+1 [923 kB]
+[33m
+0% [1 php7.2-common 5,536 B/923 kB 1%] [Waiting for headers][0m[33m
+0% [1 php7.2-common 77.9 kB/923 kB 8%] [Waiting for headers][0m
+                                                            
+Get:2 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libxmlrpc-epi0 amd64 0.54.2-1.1ubuntu0.1 [30.4 kB]
+[33m
+0% [1 php7.2-common 77.9 kB/923 kB 8%] [2 libxmlrpc-epi0 2,559 B/30.4 kB 8%][0m[33m
+                                                                            
+3% [1 php7.2-common 223 kB/923 kB 24%][0m[33m
+3% [1 php7.2-common 347 kB/923 kB 38%][0m[33m
+4% [1 php7.2-common 483 kB/923 kB 52%][0m[33m
+5% [1 php7.2-common 669 kB/923 kB 72%][0m[33m
+6% [1 php7.2-common 815 kB/923 kB 88%][0m[33m
+                                      
+8% [Working][0m
+            
+Get:3 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 php7.2-json amd64 7.2.18-1+ubuntu16.04.1+deb.sury.org+1 [18.4 kB]
+[33m
+8% [3 php7.2-json 5,538 B/18.4 kB 30%][0m[33m
+                                      
+9% [Working][0m
+            
+Get:4 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 php7.2-opcache amd64 7.2.18-1+ubuntu16.04.1+deb.sury.org+1 [162 kB]
+[33m
+9% [4 php7.2-opcache 5,536 B/162 kB 3%][0m[33m
+10% [4 php7.2-opcache 113 kB/162 kB 70%][0m[33m
+                                        
+11% [Working][0m
+             
+Get:5 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 php7.2-readline amd64 7.2.18-1+ubuntu16.04.1+deb.sury.org+1 [12.5 kB]
+[33m
+11% [5 php7.2-readline 2,642 B/12.5 kB 21%][0m[33m
+                                           
+12% [Working][0m
+             
+Get:6 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 php7.2-cli amd64 7.2.18-1+ubuntu16.04.1+deb.sury.org+1 [1,388 kB]
+[33m
+12% [6 php7.2-cli 5,534 B/1,388 kB 0%][0m[33m
+13% [6 php7.2-cli 113 kB/1,388 kB 8%]                              198 kB/s 60s[0m[33m
+14% [6 php7.2-cli 230 kB/1,388 kB 17%]                             198 kB/s 60s[0m[33m
+14% [6 php7.2-cli 362 kB/1,388 kB 26%]                             198 kB/s 59s[0m[33m
+15% [6 php7.2-cli 521 kB/1,388 kB 38%]                             198 kB/s 58s[0m[33m
+17% [6 php7.2-cli 758 kB/1,388 kB 55%]                             198 kB/s 57s[0m[33m
+18% [6 php7.2-cli 977 kB/1,388 kB 70%]                             198 kB/s 56s[0m[33m
+19% [6 php7.2-cli 1,164 kB/1,388 kB 84%]                           198 kB/s 55s[0m[33m
+22% [Working]                                                      198 kB/s 54s[0m
+                                                                               
+Get:7 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 libapache2-mod-php7.2 amd64 7.2.18-1+ubuntu16.04.1+deb.sury.org+1 [1,332 kB]
+[33m
+22% [7 libapache2-mod-php7.2 4,086 B/1,332 kB 0%]                  198 kB/s 54s[0m[33m
+22% [7 libapache2-mod-php7.2 30.1 kB/1,332 kB 2%]                  198 kB/s 54s[0m[33m
+22% [7 libapache2-mod-php7.2 156 kB/1,332 kB 12%]                  198 kB/s 53s[0m[33m
+23% [7 libapache2-mod-php7.2 229 kB/1,332 kB 17%]                  198 kB/s 53s[0m[33m
+23% [7 libapache2-mod-php7.2 299 kB/1,332 kB 22%]                  198 kB/s 53s[0m[33m
+24% [7 libapache2-mod-php7.2 376 kB/1,332 kB 28%]                  267 kB/s 39s[0m[33m
+24% [7 libapache2-mod-php7.2 478 kB/1,332 kB 36%]                  267 kB/s 38s[0m[33m
+25% [7 libapache2-mod-php7.2 576 kB/1,332 kB 43%]                  267 kB/s 38s[0m[33m
+26% [7 libapache2-mod-php7.2 676 kB/1,332 kB 51%]                  267 kB/s 37s[0m[33m
+26% [7 libapache2-mod-php7.2 783 kB/1,332 kB 59%]                  267 kB/s 37s[0m[33m
+27% [7 libapache2-mod-php7.2 900 kB/1,332 kB 68%]                  267 kB/s 37s[0m[33m
+28% [7 libapache2-mod-php7.2 1,022 kB/1,332 kB 77%]                267 kB/s 36s[0m[33m
+28% [7 libapache2-mod-php7.2 1,161 kB/1,332 kB 87%]                267 kB/s 36s[0m[33m
+31% [Waiting for headers]                                          267 kB/s 35s[0m
+                                                                               
+Get:8 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 libicu64 amd64 64.1-0.1+ubuntu16.04.1+deb.sury.org+1 [8,352 kB]
+[33m
+31% [8 libicu64 5,534 B/8,352 kB 0%]                               267 kB/s 35s[0m[33m
+31% [8 libicu64 60.6 kB/8,352 kB 1%]                               267 kB/s 35s[0m[33m
+31% [8 libicu64 143 kB/8,352 kB 2%]                                267 kB/s 34s[0m[33m
+32% [8 libicu64 221 kB/8,352 kB 3%]                                267 kB/s 34s[0m[33m
+32% [8 libicu64 301 kB/8,352 kB 4%]                                200 kB/s 45s[0m[33m
+33% [8 libicu64 399 kB/8,352 kB 5%]                                200 kB/s 45s[0m[33m
+33% [8 libicu64 475 kB/8,352 kB 6%]                                200 kB/s 45s[0m[33m
+34% [8 libicu64 566 kB/8,352 kB 7%]                                200 kB/s 44s[0m[33m
+34% [8 libicu64 634 kB/8,352 kB 8%]                                200 kB/s 44s[0m[33m
+35% [8 libicu64 709 kB/8,352 kB 8%]                                200 kB/s 43s[0m[33m
+35% [8 libicu64 809 kB/8,352 kB 10%]                               200 kB/s 43s[0m[33m
+36% [8 libicu64 898 kB/8,352 kB 11%]                               200 kB/s 42s[0m[33m
+37% [8 libicu64 999 kB/8,352 kB 12%]                               200 kB/s 42s[0m[33m
+37% [8 libicu64 1,119 kB/8,352 kB 13%]                             200 kB/s 41s[0m[33m
+38% [8 libicu64 1,212 kB/8,352 kB 15%]                             200 kB/s 41s[0m[33m
+38% [8 libicu64 1,306 kB/8,352 kB 16%]                             200 kB/s 40s[0m[33m
+39% [8 libicu64 1,433 kB/8,352 kB 17%]                             188 kB/s 42s[0m[33m
+40% [8 libicu64 1,543 kB/8,352 kB 18%]                             188 kB/s 42s[0m[33m
+41% [8 libicu64 1,662 kB/8,352 kB 20%]                             188 kB/s 41s[0m[33m
+41% [8 libicu64 1,795 kB/8,352 kB 21%]                             188 kB/s 40s[0m[33m
+42% [8 libicu64 1,917 kB/8,352 kB 23%]                             188 kB/s 40s[0m[33m
+43% [8 libicu64 2,036 kB/8,352 kB 24%]                             188 kB/s 39s[0m[33m
+43% [8 libicu64 2,159 kB/8,352 kB 26%]                             188 kB/s 38s[0m[33m
+44% [8 libicu64 2,272 kB/8,352 kB 27%]                             188 kB/s 38s[0m[33m
+45% [8 libicu64 2,405 kB/8,352 kB 29%]                             188 kB/s 37s[0m[33m
+46% [8 libicu64 2,547 kB/8,352 kB 30%]                             188 kB/s 36s[0m[33m
+47% [8 libicu64 2,677 kB/8,352 kB 32%]                             188 kB/s 36s[0m[33m
+47% [8 libicu64 2,813 kB/8,352 kB 34%]                             188 kB/s 35s[0m[33m
+48% [8 libicu64 2,965 kB/8,352 kB 36%]                             255 kB/s 25s[0m[33m
+49% [8 libicu64 3,119 kB/8,352 kB 37%]                             255 kB/s 24s[0m[33m
+50% [8 libicu64 3,277 kB/8,352 kB 39%]                             255 kB/s 24s[0m[33m
+51% [8 libicu64 3,421 kB/8,352 kB 41%]                             255 kB/s 23s[0m[33m
+52% [8 libicu64 3,555 kB/8,352 kB 43%]                             255 kB/s 23s[0m[33m
+53% [8 libicu64 3,720 kB/8,352 kB 45%]                             255 kB/s 22s[0m[33m
+54% [8 libicu64 3,872 kB/8,352 kB 46%]                             255 kB/s 21s[0m[33m
+55% [8 libicu64 4,022 kB/8,352 kB 48%]                             255 kB/s 21s[0m[33m
+56% [8 libicu64 4,167 kB/8,352 kB 50%]                             255 kB/s 20s[0m[33m
+56% [8 libicu64 4,297 kB/8,352 kB 51%]                             255 kB/s 20s[0m[33m
+57% [8 libicu64 4,410 kB/8,352 kB 53%]                             255 kB/s 19s[0m[33m
+58% [8 libicu64 4,532 kB/8,352 kB 54%]                             255 kB/s 19s[0m[33m
+59% [8 libicu64 4,665 kB/8,352 kB 56%]                             283 kB/s 17s[0m[33m
+59% [8 libicu64 4,810 kB/8,352 kB 58%]                             283 kB/s 16s[0m[33m
+60% [8 libicu64 4,945 kB/8,352 kB 59%]                             283 kB/s 16s[0m[33m
+61% [8 libicu64 5,091 kB/8,352 kB 61%]                             283 kB/s 15s[0m[33m
+62% [8 libicu64 5,242 kB/8,352 kB 63%]                             283 kB/s 14s[0m[33m
+62% [8 libicu64 5,318 kB/8,352 kB 64%]                             283 kB/s 14s[0m[33m
+63% [8 libicu64 5,456 kB/8,352 kB 65%]                             283 kB/s 14s[0m[33m
+64% [8 libicu64 5,547 kB/8,352 kB 66%]                             283 kB/s 13s[0m[33m
+64% [8 libicu64 5,640 kB/8,352 kB 68%]                             283 kB/s 13s[0m[33m
+65% [8 libicu64 5,740 kB/8,352 kB 69%]                             283 kB/s 13s[0m[33m
+66% [8 libicu64 5,847 kB/8,352 kB 70%]                             283 kB/s 12s[0m[33m
+66% [8 libicu64 5,961 kB/8,352 kB 71%]                             283 kB/s 12s[0m[33m
+67% [8 libicu64 6,026 kB/8,352 kB 72%]                             226 kB/s 15s[0m[33m
+67% [8 libicu64 6,096 kB/8,352 kB 73%]                             226 kB/s 14s[0m[33m
+68% [8 libicu64 6,173 kB/8,352 kB 74%]                             226 kB/s 14s[0m[33m
+68% [8 libicu64 6,249 kB/8,352 kB 75%]                             226 kB/s 14s[0m[33m
+68% [8 libicu64 6,303 kB/8,352 kB 75%]                             226 kB/s 14s[0m[33m
+69% [8 libicu64 6,377 kB/8,352 kB 76%]                             226 kB/s 13s[0m[33m
+69% [8 libicu64 6,442 kB/8,352 kB 77%]                             226 kB/s 13s[0m[33m
+70% [8 libicu64 6,516 kB/8,352 kB 78%]                             226 kB/s 13s[0m[33m
+70% [8 libicu64 6,587 kB/8,352 kB 79%]                             226 kB/s 12s[0m[33m
+71% [8 libicu64 6,674 kB/8,352 kB 80%]                             226 kB/s 12s[0m[33m
+71% [8 libicu64 6,768 kB/8,352 kB 81%]                             226 kB/s 11s[0m[33m
+72% [8 libicu64 6,852 kB/8,352 kB 82%]                             226 kB/s 11s[0m[33m
+72% [8 libicu64 6,936 kB/8,352 kB 83%]                             151 kB/s 16s[0m[33m
+73% [8 libicu64 7,031 kB/8,352 kB 84%]                             151 kB/s 16s[0m[33m
+73% [8 libicu64 7,118 kB/8,352 kB 85%]                             151 kB/s 15s[0m[33m
+74% [8 libicu64 7,201 kB/8,352 kB 86%]                             151 kB/s 15s[0m[33m
+74% [8 libicu64 7,295 kB/8,352 kB 87%]                             151 kB/s 14s[0m[33m
+75% [8 libicu64 7,372 kB/8,352 kB 88%]                             151 kB/s 13s[0m[33m
+75% [8 libicu64 7,470 kB/8,352 kB 89%]                             151 kB/s 13s[0m[33m
+76% [8 libicu64 7,567 kB/8,352 kB 91%]                             151 kB/s 12s[0m[33m
+77% [8 libicu64 7,665 kB/8,352 kB 92%]                             151 kB/s 11s[0m[33m
+77% [8 libicu64 7,771 kB/8,352 kB 93%]                             151 kB/s 11s[0m[33m
+78% [8 libicu64 7,875 kB/8,352 kB 94%]                             151 kB/s 10s[0m[33m
+79% [8 libicu64 7,997 kB/8,352 kB 96%]                              151 kB/s 9s[0m[33m
+79% [8 libicu64 8,122 kB/8,352 kB 97%]                              197 kB/s 6s[0m[33m
+80% [8 libicu64 8,246 kB/8,352 kB 99%]                              197 kB/s 6s[0m[33m
+82% [Waiting for headers]                                           197 kB/s 5s[0m
+                                                                               
+Get:9 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 libzip4 amd64 1.5.1-4+ubuntu16.04.1+deb.sury.org+2 [50.2 kB]
+[33m
+82% [9 libzip4 5,544 B/50.2 kB 11%]                                 197 kB/s 5s[0m[33m
+83% [Working]                                                       197 kB/s 5s[0m
+                                                                               
+Get:10 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 php7.2 all 7.2.18-1+ubuntu16.04.1+deb.sury.org+1 [49.0 kB]
+[33m
+83% [10 php7.2 4,090 B/49.0 kB 8%]                                  197 kB/s 5s[0m[33m
+84% [Working]                                                       197 kB/s 5s[0m
+                                                                               
+Get:11 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 php7.2-curl amd64 7.2.18-1+ubuntu16.04.1+deb.sury.org+1 [28.3 kB]
+[33m
+84% [11 php7.2-curl 4,090 B/28.3 kB 14%]                            197 kB/s 5s[0m[33m
+86% [Working]                                                       197 kB/s 5s[0m
+                                                                               
+Get:12 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 php7.2-gd amd64 7.2.18-1+ubuntu16.04.1+deb.sury.org+1 [26.7 kB]
+[33m
+86% [12 php7.2-gd 4,096 B/26.7 kB 15%]                              197 kB/s 5s[0m[33m
+87% [Working]                                                       197 kB/s 4s[0m
+                                                                               
+Get:13 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 php7.2-intl amd64 7.2.18-1+ubuntu16.04.1+deb.sury.org+1 [123 kB]
+[33m
+87% [13 php7.2-intl 5,536 B/123 kB 5%]                              197 kB/s 4s[0m[33m
+87% [13 php7.2-intl 82.3 kB/123 kB 67%]                             197 kB/s 4s[0m[33m
+89% [Waiting for headers]                                           197 kB/s 4s[0m
+                                                                               
+Get:14 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 php7.2-mbstring amd64 7.2.18-1+ubuntu16.04.1+deb.sury.org+1 [480 kB]
+[33m
+89% [14 php7.2-mbstring 5,536 B/480 kB 1%]                          197 kB/s 4s[0m[33m
+89% [14 php7.2-mbstring 82.3 kB/480 kB 17%]                         197 kB/s 3s[0m[33m
+90% [14 php7.2-mbstring 160 kB/480 kB 33%]                          197 kB/s 3s[0m[33m
+90% [14 php7.2-mbstring 250 kB/480 kB 52%]                          197 kB/s 3s[0m[33m
+91% [14 php7.2-mbstring 355 kB/480 kB 74%]                          133 kB/s 3s[0m[33m
+91% [14 php7.2-mbstring 473 kB/480 kB 99%]                          133 kB/s 2s[0m[33m
+93% [Working]                                                       133 kB/s 2s[0m
+                                                                               
+Get:15 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 php7.2-mysql amd64 7.2.18-1+ubuntu16.04.1+deb.sury.org+1 [117 kB]
+[33m
+93% [15 php7.2-mysql 5,536 B/117 kB 5%]                             133 kB/s 2s[0m[33m
+93% [15 php7.2-mysql 67.8 kB/117 kB 58%]                            133 kB/s 2s[0m[33m
+94% [Waiting for headers]                                           133 kB/s 1s[0m
+                                                                               
+Get:16 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 php7.2-soap amd64 7.2.18-1+ubuntu16.04.1+deb.sury.org+1 [111 kB]
+[33m
+94% [16 php7.2-soap 6,984 B/111 kB 6%]                              133 kB/s 1s[0m[33m
+95% [16 php7.2-soap 60.6 kB/111 kB 54%]                             133 kB/s 1s[0m[33m
+96% [Waiting for headers]                                           133 kB/s 1s[0m
+                                                                               
+Get:17 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 php7.2-xml amd64 7.2.18-1+ubuntu16.04.1+deb.sury.org+1 [105 kB]
+[33m
+96% [17 php7.2-xml 5,536 B/105 kB 5%]                               133 kB/s 0s[0m[33m
+96% [17 php7.2-xml 60.6 kB/105 kB 58%]                              133 kB/s 0s[0m[33m
+98% [Waiting for headers]                                           133 kB/s 0s[0m
+                                                                               
+Get:18 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 php7.2-xmlrpc amd64 7.2.18-1+ubuntu16.04.1+deb.sury.org+1 [12.3 kB]
+[33m
+98% [18 php7.2-xmlrpc 5,538 B/12.3 kB 45%]                          133 kB/s 0s[0m[33m
+99% [Working]                                                       133 kB/s 0s[0m
+                                                                               
+Get:19 http://ppa.launchpad.net/ondrej/php/ubuntu xenial/main amd64 php7.2-zip amd64 7.2.18-1+ubuntu16.04.1+deb.sury.org+1 [20.3 kB]
+[33m
+99% [19 php7.2-zip 5,538 B/20.3 kB 27%]                             133 kB/s 0s[0m[33m
+100% [Working]                                                      133 kB/s 0s[0m
+                                                                               
+Fetched 13.3 MB in 1min 6s (201 kB/s)
+
+7[0;23r8[1ASelecting previously unselected package php7.2-common.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 241911 files and directories currently installed.)
+Preparing to unpack .../php7.2-common_7.2.18-1+ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+7[24;0f[42m[30mProgress: [  0%][49m[39m [..........................................................] 87[24;0f[42m[30mProgress: [  1%][49m[39m [#.........................................................] 8Unpacking php7.2-common (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [  2%][49m[39m [##........................................................] 87[24;0f[42m[30mProgress: [  3%][49m[39m [##........................................................] 8Selecting previously unselected package php7.2-json.
+Preparing to unpack .../php7.2-json_7.2.18-1+ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+7[24;0f[42m[30mProgress: [  4%][49m[39m [###.......................................................] 8Unpacking php7.2-json (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [  5%][49m[39m [####......................................................] 87[24;0f[42m[30mProgress: [  6%][49m[39m [####......................................................] 8Selecting previously unselected package php7.2-opcache.
+Preparing to unpack .../php7.2-opcache_7.2.18-1+ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+7[24;0f[42m[30mProgress: [  7%][49m[39m [#####.....................................................] 8Unpacking php7.2-opcache (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [  8%][49m[39m [#####.....................................................] 87[24;0f[42m[30mProgress: [  9%][49m[39m [######....................................................] 8Selecting previously unselected package php7.2-readline.
+Preparing to unpack .../php7.2-readline_7.2.18-1+ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 10%][49m[39m [#######...................................................] 8Unpacking php7.2-readline (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 11%][49m[39m [#######...................................................] 87[24;0f[42m[30mProgress: [ 12%][49m[39m [########..................................................] 8Selecting previously unselected package php7.2-cli.
+Preparing to unpack .../php7.2-cli_7.2.18-1+ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 13%][49m[39m [########..................................................] 8Unpacking php7.2-cli (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 14%][49m[39m [#########.................................................] 87[24;0f[42m[30mProgress: [ 15%][49m[39m [##########................................................] 8Selecting previously unselected package libapache2-mod-php7.2.
+Preparing to unpack .../libapache2-mod-php7.2_7.2.18-1+ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 16%][49m[39m [##########................................................] 8Unpacking libapache2-mod-php7.2 (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 17%][49m[39m [###########...............................................] 87[24;0f[42m[30mProgress: [ 18%][49m[39m [###########...............................................] 8Selecting previously unselected package libicu64:amd64.
+Preparing to unpack .../libicu64_64.1-0.1+ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 19%][49m[39m [############..............................................] 8Unpacking libicu64:amd64 (64.1-0.1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 20%][49m[39m [#############.............................................] 87[24;0f[42m[30mProgress: [ 21%][49m[39m [#############.............................................] 8Selecting previously unselected package libzip4:amd64.
+Preparing to unpack .../libzip4_1.5.1-4+ubuntu16.04.1+deb.sury.org+2_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 22%][49m[39m [##############............................................] 8Unpacking libzip4:amd64 (1.5.1-4+ubuntu16.04.1+deb.sury.org+2) ...
+7[24;0f[42m[30mProgress: [ 23%][49m[39m [##############............................................] 87[24;0f[42m[30mProgress: [ 25%][49m[39m [###############...........................................] 8Selecting previously unselected package php7.2.
+Preparing to unpack .../php7.2_7.2.18-1+ubuntu16.04.1+deb.sury.org+1_all.deb ...
+7[24;0f[42m[30mProgress: [ 26%][49m[39m [################..........................................] 8Unpacking php7.2 (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 27%][49m[39m [################..........................................] 87[24;0f[42m[30mProgress: [ 28%][49m[39m [#################.........................................] 8Selecting previously unselected package php7.2-curl.
+Preparing to unpack .../php7.2-curl_7.2.18-1+ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 29%][49m[39m [#################.........................................] 8Unpacking php7.2-curl (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 30%][49m[39m [##################........................................] 87[24;0f[42m[30mProgress: [ 31%][49m[39m [###################.......................................] 8Selecting previously unselected package php7.2-gd.
+Preparing to unpack .../php7.2-gd_7.2.18-1+ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 32%][49m[39m [###################.......................................] 8Unpacking php7.2-gd (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 33%][49m[39m [####################......................................] 87[24;0f[42m[30mProgress: [ 34%][49m[39m [####################......................................] 8Selecting previously unselected package php7.2-intl.
+Preparing to unpack .../php7.2-intl_7.2.18-1+ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 35%][49m[39m [#####################.....................................] 8Unpacking php7.2-intl (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 36%][49m[39m [######################....................................] 87[24;0f[42m[30mProgress: [ 37%][49m[39m [######################....................................] 8Selecting previously unselected package php7.2-mbstring.
+Preparing to unpack .../php7.2-mbstring_7.2.18-1+ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 38%][49m[39m [#######################...................................] 8Unpacking php7.2-mbstring (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 39%][49m[39m [#######################...................................] 87[24;0f[42m[30mProgress: [ 40%][49m[39m [########################..................................] 8Selecting previously unselected package php7.2-mysql.
+Preparing to unpack .../php7.2-mysql_7.2.18-1+ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 41%][49m[39m [#########################.................................] 8Unpacking php7.2-mysql (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 42%][49m[39m [#########################.................................] 87[24;0f[42m[30mProgress: [ 43%][49m[39m [##########################................................] 8Selecting previously unselected package php7.2-soap.
+Preparing to unpack .../php7.2-soap_7.2.18-1+ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 44%][49m[39m [##########################................................] 8Unpacking php7.2-soap (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 45%][49m[39m [###########################...............................] 87[24;0f[42m[30mProgress: [ 46%][49m[39m [############################..............................] 8Selecting previously unselected package php7.2-xml.
+Preparing to unpack .../php7.2-xml_7.2.18-1+ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 47%][49m[39m [############################..............................] 8Unpacking php7.2-xml (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 48%][49m[39m [#############################.............................] 87[24;0f[42m[30mProgress: [ 50%][49m[39m [#############################.............................] 8Selecting previously unselected package libxmlrpc-epi0:amd64.
+Preparing to unpack .../libxmlrpc-epi0_0.54.2-1.1ubuntu0.1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 51%][49m[39m [##############################............................] 8Unpacking libxmlrpc-epi0:amd64 (0.54.2-1.1ubuntu0.1) ...
+7[24;0f[42m[30mProgress: [ 52%][49m[39m [###############################...........................] 87[24;0f[42m[30mProgress: [ 53%][49m[39m [###############################...........................] 8Selecting previously unselected package php7.2-xmlrpc.
+Preparing to unpack .../php7.2-xmlrpc_7.2.18-1+ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 54%][49m[39m [################################..........................] 8Unpacking php7.2-xmlrpc (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 55%][49m[39m [#################################.........................] 87[24;0f[42m[30mProgress: [ 56%][49m[39m [#################################.........................] 8Selecting previously unselected package php7.2-zip.
+Preparing to unpack .../php7.2-zip_7.2.18-1+ubuntu16.04.1+deb.sury.org+1_amd64.deb ...
+7[24;0f[42m[30mProgress: [ 57%][49m[39m [##################################........................] 8Unpacking php7.2-zip (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 58%][49m[39m [##################################........................] 87[24;0f[42m[30mProgress: [ 59%][49m[39m [###################################.......................] 8Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Setting up php7.2-common (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 60%][49m[39m [####################################......................] 8
+Creating config file /etc/php/7.2/mods-available/calendar.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/ctype.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/exif.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/fileinfo.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/ftp.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/gettext.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/iconv.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/pdo.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/phar.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/posix.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/shmop.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/sockets.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/sysvmsg.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/sysvsem.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/sysvshm.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/tokenizer.ini with new version
+7[24;0f[42m[30mProgress: [ 61%][49m[39m [####################################......................] 8Setting up php7.2-json (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 62%][49m[39m [#####################################.....................] 8
+Creating config file /etc/php/7.2/mods-available/json.ini with new version
+7[24;0f[42m[30mProgress: [ 63%][49m[39m [#####################################.....................] 8Setting up php7.2-opcache (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 64%][49m[39m [######################################....................] 8
+Creating config file /etc/php/7.2/mods-available/opcache.ini with new version
+7[24;0f[42m[30mProgress: [ 65%][49m[39m [#######################################...................] 8Setting up php7.2-readline (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 66%][49m[39m [#######################################...................] 8
+Creating config file /etc/php/7.2/mods-available/readline.ini with new version
+7[24;0f[42m[30mProgress: [ 67%][49m[39m [########################################..................] 8Setting up php7.2-cli (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 68%][49m[39m [########################################..................] 8
+Creating config file /etc/php/7.2/cli/php.ini with new version
+7[24;0f[42m[30mProgress: [ 69%][49m[39m [#########################################.................] 8Setting up libapache2-mod-php7.2 (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 70%][49m[39m [##########################################................] 8
+Creating config file /etc/php/7.2/apache2/php.ini with new version
+libapache2-mod-php7.2: php7.0 module already enabled, not enabling PHP 7.2
+7[24;0f[42m[30mProgress: [ 71%][49m[39m [##########################################................] 8Setting up libicu64:amd64 (64.1-0.1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 72%][49m[39m [###########################################...............] 87[24;0f[42m[30mProgress: [ 73%][49m[39m [###########################################...............] 8Setting up libzip4:amd64 (1.5.1-4+ubuntu16.04.1+deb.sury.org+2) ...
+7[24;0f[42m[30mProgress: [ 75%][49m[39m [############################################..............] 87[24;0f[42m[30mProgress: [ 76%][49m[39m [#############################################.............] 8Setting up php7.2 (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 77%][49m[39m [#############################################.............] 87[24;0f[42m[30mProgress: [ 78%][49m[39m [##############################################............] 8Setting up php7.2-curl (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 79%][49m[39m [##############################################............] 8
+Creating config file /etc/php/7.2/mods-available/curl.ini with new version
+7[24;0f[42m[30mProgress: [ 80%][49m[39m [###############################################...........] 8Setting up php7.2-gd (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 81%][49m[39m [################################################..........] 8
+Creating config file /etc/php/7.2/mods-available/gd.ini with new version
+7[24;0f[42m[30mProgress: [ 82%][49m[39m [################################################..........] 8Setting up php7.2-intl (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 83%][49m[39m [#################################################.........] 8
+Creating config file /etc/php/7.2/mods-available/intl.ini with new version
+7[24;0f[42m[30mProgress: [ 84%][49m[39m [#################################################.........] 8Setting up php7.2-mbstring (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 85%][49m[39m [##################################################........] 8
+Creating config file /etc/php/7.2/mods-available/mbstring.ini with new version
+7[24;0f[42m[30mProgress: [ 86%][49m[39m [###################################################.......] 8Setting up php7.2-mysql (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 87%][49m[39m [###################################################.......] 8
+Creating config file /etc/php/7.2/mods-available/mysqlnd.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/mysqli.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/pdo_mysql.ini with new version
+7[24;0f[42m[30mProgress: [ 88%][49m[39m [####################################################......] 8Setting up php7.2-soap (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 89%][49m[39m [####################################################......] 8
+Creating config file /etc/php/7.2/mods-available/soap.ini with new version
+7[24;0f[42m[30mProgress: [ 90%][49m[39m [#####################################################.....] 8Setting up php7.2-xml (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 91%][49m[39m [######################################################....] 8
+Creating config file /etc/php/7.2/mods-available/dom.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/simplexml.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/wddx.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/xml.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/xmlreader.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/xmlwriter.ini with new version
+
+Creating config file /etc/php/7.2/mods-available/xsl.ini with new version
+7[24;0f[42m[30mProgress: [ 92%][49m[39m [######################################################....] 8Setting up libxmlrpc-epi0:amd64 (0.54.2-1.1ubuntu0.1) ...
+7[24;0f[42m[30mProgress: [ 93%][49m[39m [#######################################################...] 87[24;0f[42m[30mProgress: [ 94%][49m[39m [#######################################################...] 8Setting up php7.2-xmlrpc (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 95%][49m[39m [########################################################..] 8
+Creating config file /etc/php/7.2/mods-available/xmlrpc.ini with new version
+7[24;0f[42m[30mProgress: [ 96%][49m[39m [#########################################################.] 8Setting up php7.2-zip (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+7[24;0f[42m[30mProgress: [ 97%][49m[39m [#########################################################.] 8
+Creating config file /etc/php/7.2/mods-available/zip.ini with new version
+7[24;0f[42m[30mProgress: [ 98%][49m[39m [##########################################################] 8Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for libapache2-mod-php7.2 (7.2.18-1+ubuntu16.04.1+deb.sury.org+1) ...
+
+7[0;24r8[1A[J]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo nano /var/www/html/index.php
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ]
+[3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3         File: /var/www/html/index.php                          [23;1H^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[3d[1;71H(B[0;7mModified[3;2H(B[m<!DOCTYPE html>
+[4d(B[0;1m[33m<html>
+[5d<body>
+[7d[32m<?php
+[8d[39m(B[mecho (B[0;1m[33m"My first PHP script!"[39m(B[m;
+[9d(B[0;1m[32m?>
+[11d[33m</body>
+[12d</html>(B[0m[42m 
+[22d[49m(B[m[K[12;9H[24;1H[?1049l
+[?1l>[?1049h[1;43r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.5.3         File: /var/www/html/index.php                Modified  [3;2H(B[m<!DOCTYPE html>
+[4d(B[0;1m[33m<html>
+[5d<body>
+[7d[32m<?php
+[8d[39m(B[mecho (B[0;1m[33m"My first PHP script!"[39m(B[m;
+[9d(B[0;1m[32m?>
+[11d[33m</body>
+[12d</html>(B[0m[42m 
+[23d[49m(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[12;9H[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.5.3         File: /var/www/html/index.php                Modified  [3;2H(B[m<!DOCTYPE html>
+[4d(B[0;1m[33m<html>
+[5d<body>
+[7d[32m<?php
+[8d[39m(B[mecho (B[0;1m[33m"My first PHP script!"[39m(B[m;
+[9d(B[0;1m[32m?>
+[11d[33m</body>
+[12d</html>(B[0m[42m 
+[23d[49m(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[12;9H[1;26H(B[0;7m                     File: /var/www/html/index.php                                                          Modified  [23;1H(B[m[K[24d[K[42d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page   (B[0;7mM-\(B[m First Line (B[0;7mM-W(B[m WhereIs Next
+[43d(B[0;7m^X(B[m Exit[43;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page   (B[0;7mM-/(B[m Last Line  (B[0;7mM-](B[m To Bracket[12;9H[A
+[A[9;3H[8;9H[A
+[8decho [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33mf"[39m(B[m;(B[0;1m[33mu"[39m(B[m;(B[0;1m[33mc"[39m(B[m;(B[0;1m[33mk"[39m(B[m;(B[0;1m[33m "[39m(B[m;(B[0;1m[33mu"[39m(B[m;(B[0;1m[33m "[39m(B[m;(B[0;1m[33ma"[39m(B[m;(B[0;1m[33mp"[39m(B[m;(B[0;1m[33mpp"[39m(B[m;(B[0;1m[33ma"[39m(B[m;(B[0;1m[33mp"[39m(B[m;(B[0;1m[33mpp"[39m(B[m;(B[0;1m[33ma"[39m(B[m;(B[0;1m[33mn"[39m(B[m;(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33mp"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33mp"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33m"[39m(B[m;[K(B[0;1m[33mh"[39m(B[m;(B[0;1m[33me"[39m(B[m;(B[0;1m[33ml"[39m(B[m;(B[0;1m[33mll"[39m(B[m;(B[0;1m[33mo"[39m(B[m;(B[0;1m[33m6"[39m(B[m;[C4;7;4;[7;6H[8;17H;4;[K;[K;[K(B[0;1m[33m"[39m(B[m;[K[C[?25l[41;57H(B[0;7m[ XOFF ignored, mumble mumble ][8;13H(B[m[?12l[?25h[?25l[?12l[?25h
+[41d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                                                   [42;1H Y(B[m Yes[K
+[43d(B[0;7m N(B[m No  [43;16H (B[0;7m^C(B[m Cancel[K[41;62H
+(B[0;7mFile Name to Write: /var/www/html/index.php                 
+[42d^G(B[m Get Help[42;29H(B[0;7mM-D(B[m DOS Format[42;57H(B[0;7mM-A(B[m Append[42;85H(B[0;7mM-B(B[m Backup File
+[43d(B[0;7m^C(B[m Cancel[17G            (B[0;7mM-M(B[m Mac Format[43;57H(B[0;7mM-P(B[m Prepend[43;85H(B[0;7m^T(B[m To Files[41;44H[?25l[41;62H[39;49m(B[m[1K (B[0;7m[ Wrote 10 lines ](B[m[K[8;13H
+[41d[J[1;134H(B[0;7m        [43;143H(B[m[43;1H[?12l[?25h[?1049l
+[?1l>]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ 4444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K 
+[K]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$  sudo system ct1[K[K[K[K
+[K]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$  sudo system~[K\[K[K[K[K[K[K[K[K[K[K[K[K[K
+[K]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ sudo systemctl restart apache2
+[sudo] password for cec: 
+]0;cec@cec-H110M-S2: ~[01;32mcec@cec-H110M-S2[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Thursday 09 May 2019 10:24:57 AM IST
