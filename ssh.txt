@@ -1,0 +1,223 @@
+Script started on Thursday 21 March 2019 09:54:39 AM IST
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ ssh cs17d48@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d48@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+$ ls
+examples.desktop  result.txt  test
+$ pwd
+/home/cs17d48
+$ lls
+-sh: 3: lls: not found
+$ touch s4d.txt
+$ ls
+examples.desktop  result.txt  s4d.txt  test
+$ rm test
+rm: cannot remove 'test': Is a directory
+$ cat reult     s4d, .txt
+$ rm s4d      history
+-sh: 8: history: not found
+$ rm s5 4d.txt
+$ ls
+examples.desktop  result.txt  test
+$ cat result.txt
+CHN17CS001  MA101 8.5  , PH100 8  , BE100 7  , BE10105 8  , BE103 8  , EE100  6  , PH110 8.5  , EE110 8  , CS110 8.5  
+CHN17CS002  MA101 8.5  , PH100 8  , BE100 7  , BE10105 8  , BE103 8.5  , EE100 7  , PH110 8  , EE110 8  , CS110 7  
+CHN17CS003  MA101 8  , PH100 7  , BE100  6  , BE10105  6  , BE103 9  , EE100  6  , PH110 8  , EE110 8  , CS110 7  
+CHN17CS004  MA101 7  , PH100  6  , BE100 8  , BE10105  6  , BE103 8  , EE100 7  , PH110 8.5  , EE110 9  , CS110 10  
+CHN17CS005  MA101  6  , PH100 7  , BE100 7  , BE10105  6  , BE103 8  , EE100 7  , PH110 8.5  , EE110 8  , CS110 8  
+CHN17CS006  MA101 10  , PH100 8  , BE100 9  , BE10105 7  , BE103 9  , EE100 8  , PH110 9  , EE110 8  , CS110 9  
+CHN17CS007  MA101  0  , PH100  6  , BE100  5  , BE10105  0  , BE103 8  , EE100  0  , PH110 8.5  , EE110 8  , CS110 8  
+CHN17CS008  MA101 7  , PH100 7  , BE100 7  , BE10105 8  , BE103 8.5  , EE100  6  , PH110 9  , EE110 8  , CS110 7  
+CHN17CS009  MA101 8.5  , PH100 8.5  , BE100 7  , BE10105  0  , BE103 9  , EE100  6  , PH110 8.5  , EE110 8  , CS110 7  
+CHN17CS010  MA101  0  , PH100  6  , BE100 7  , BE10105  6  , BE103 7  , EE100  6  , PH110 8  , EE110 8  , CS110 7  
+CHN17CS011  MA101  6  , PH100 7  , BE100 7  , BE10105 8  , BE103 9  , EE100 8  , PH110 9  , EE110 8.5  , CS110 8.5  
+CHN17CS012  MA101 8  , PH100 9  , BE100 8  , BE10105 8  , BE103 9  , EE100 8  , PH110 9  , EE110 9  , CS110 8  
+CHN17CS013  MA101  0  , PH100 7  , BE100 7  , BE10105 8.5  , BE103 8.5  , EE100 7  , PH110 9  , EE110 8.5  , CS110 10  
+CHN17CS014  MA101  0  , PH100 7  , BE100  0  , BE10105 8  , BE103 8  , EE100  6  , PH110 8.5  , EE110 9  , CS110 8  
+CHN17CS015  MA101  0  , PH100 8  , BE100  6  , BE10105  0  , BE103 8.5  , EE100 7  , PH110 9  , EE110 8.5  , CS110  6  
+CHN17CS016  MA101 7  , PH100 8  , BE100  6  , BE10105  0  , BE103 8  , EE100  6  , PH110 8.5  , EE110 8.5  , CS110 8  
+CHN17CS017  MA101 8  , PH100 8.5  , BE100 8  , BE10105 9  , BE103 9  , EE100 8.5  , PH110 9  , EE110 8.5  , CS110 10  
+CHN17CS018  MA101  0  , PH100  0  , BE100  0  , BE10105  0  , BE103  6  , EE100  5  , PH110 8  , EE110 8  , CS110 8.5  
+CHN17CS019  MA101 8.5  , PH100 9  , BE100 8  , BE10105 9  , BE103 8.5  , EE100 8.5  , PH110 10  , EE110 8  , CS110 10  
+CHN17CS020  MA101 8  , PH100  6  , BE100 7  , BE10105  0  , BE103 7  , EE100  6  , PH110 9  , EE110 8  , CS110 8  
+CHN17CS021  MA101 7  , PH100  6  , BE100 7  , BE10105 8  , BE103 7  , EE100  6  , PH110 9  , EE110 8  , CS110 10  
+CHN17CS022  MA101  0  , PH100  6  , BE100  0  , BE10105  0  , BE103  0  , EE100  0  , PH110 8  , EE110 7  , CS110 8.5  
+CHN17CS023  MA101  0  , PH100  6  , BE100  0  , BE10105  0  , BE103 8  , EE100  6  , PH110 8  , EE110 9  , CS110 8  
+CHN17CS024  MA101 8  , PH100 9  , BE100 10  , BE10105 9  , BE103 9  , EE100 8  , PH110 9  , EE110 8  , CS110 10  
+CHN17CS025  MA101  0  , PH100 7  , BE100 7  , BE10105  6  , BE103 8  , EE100  6  , PH110 8.5  , EE110 8  , CS110 7  
+CHN17CS026  MA101  6  , PH100 8  , BE100 8  , BE10105 8.5  , BE103 8  , EE100  6  , PH110 10  , EE110 8.5  , CS110 8.5  
+CHN17CS027  MA101 8.5  , PH100 7  , BE100 7  , BE10105 8  , BE103 9  , EE100 7  , PH110 8.5  , EE110 9  , CS110 10  
+CHN17CS028  MA101 8  , PH100 8  , BE100 8  , BE10105 8.5  , BE103 8  , EE100 8  , PH110 9  , EE110 8  , CS110 9  
+CHN17CS029  MA101  0  , PH100  0  , BE100  0  , BE10105  6  , BE103 8  , EE100  5  , PH110 8  , EE110 8.5  , CS110 8.5  
+CHN17CS030  MA101 9  , PH100 8.5  , BE100 9  , BE10105 9  , BE103 8  , EE100 8  , PH110 10  , EE110 9  , CS110 10  
+CHN17CS031  MA101  0  , PH100  6  , BE100  0  , BE10105  6  , BE103 8  , EE100  6  , PH110 8  , EE110 8  , CS110 8  
+CHN17CS032  MA101  0  , PH100  6  , BE100  6  , BE10105 8  , BE103 8  , EE100  6  , PH110 8  , EE110 8.5  , CS110 9  
+CHN17CS033  MA101 8  , PH100 8.5  , BE100 8  , BE10105  0  , BE103 7  , EE100 8  , PH110 9  , EE110 8.5  , CS110 7  
+CHN17CS034  MA101 7  , PH100 8  , BE100 7  , BE10105  0  , BE103 9  , EE100  6  , PH110 8.5  , EE110 8  , CS110 9  
+CHN17CS035  MA101  0  , PH100  6  , BE100  0  , BE10105  0  , BE103 7  , EE100  6  , PH110 8  , EE110 8  , CS110 8  
+CHN17CS036  MA101 8  , PH100 9  , BE100 9  , BE10105 8  , BE103 10  , EE100 7  , PH110 9  , EE110 9  , CS110 8  
+CHN17CS037  MA101  0  , PH100  0  , BE100  6  , BE10105 8  , BE103 8  , EE100  6  , PH110 8.5  , EE110 8.5  , CS110 10  
+CHN17CS038  MA101  0  , PH100  0  , BE100  0  , BE10105  0  , BE103 7  , EE100  6  , PH110 8  , EE110 8.5  , CS110 8.5  
+CHN17CS039  MA101 7  , PH100  0  , BE100 8  , BE10105 8.5  , BE103 8.5  , EE100 8  , PH110 8  , EE110 8  , CS110 8  
+CHN17CS040  MA101 8  , PH100 8.5  , BE100 8.5  , BE10105 8.5  , BE103 10  , EE100 8  , PH110 10  , EE110 8  , CS110 8.5  
+CHN17CS041  MA101 8  , PH100  0  , BE100 7  , BE10105 8  , BE103 8.5  , EE100  6  , PH110 8  , EE110 8.5  , CS110 10  
+CHN17CS042  MA101  6  , PH100  0  , BE100  6  , BE10105 8  , BE103 9  , EE100  6  , PH110 8  , EE110 8  , CS110 8  
+CHN17CS043  MA101  0  , PH100  0  , BE100 7  , BE10105  0  , BE103 8  , EE100  6  , PH110 8  , EE110 8  , CS110 8  
+CHN17CS044  MA101 8  , PH100 7  , BE100 8  , BE10105 8  , BE103 10  , EE100 7  , PH110 9  , EE110 8  , CS110 10  
+CHN17CS045  MA101  0  , PH100  0  , BE100  0  , BE10105  0  , BE103 9  , EE100  6  , PH110 8  , EE110 8  , CS110 9  
+CHN17CS046  MA101  0  , PH100  0  , BE100  6  , BE10105  0  , BE103  6  , EE100  6  , PH110 8  , EE110 8  , CS110 8  
+CHN17CS047  MA101  0  , PH100  0  , BE100  0  , BE10105 7  , BE103 8.5  , EE100  0  , PH110 8  , EE110 8  , CS110 8  
+CHN17CS048  MA101 7  , PH100 7  , BE100 10  , BE10105 9  , BE103 10  , EE100 8.5  , PH110 8.5  , EE110 8  , CS110 10  
+CHN17CS049  MA101 8  , PH100 9  , BE100 7  , BE10105 10  , BE103 9  , EE100 8  , PH110 9  , EE110 9  , CS110 8  
+CHN17CS050  MA101 7  , PH100 7  , BE100 7  , BE10105  6  , BE103 8  , EE100  6  , PH110 9  , EE110 9  , CS110 8  
+CHN17CS051  MA101 7  , PH100 7  , BE100 8  , BE10105 8  , BE103 8.5  , EE100 7  , PH110 9  , EE110 7  , CS110 10  
+CHN17CS052  MA101  0  , PH100  0  , BE100  0  , BE10105 8  , BE103 8  , EE100  5  , PH110 8  , EE110 9  , CS110 10  
+CHN17CS053  MA101 10  , PH100 8  , BE100 8.5  , BE10105 7  , BE103 8.5  , EE100 9  , PH110 10  , EE110 9  , CS110 10  
+CHN17CS054  MA101 7  , PH100 7  , BE100  0  , BE10105 8  , BE103 8  , EE100 7  , PH110 8  , EE110 8  , CS110 10  
+CHN17CS055  MA101  0  , PH100  6  , BE100 7  , BE10105  6  , BE103 8.5  , EE100  6  , PH110 8.5  , EE110 8  , CS110 10  
+CHN17CS056  MA101  0  , PH100 7  , BE100  0  , BE10105 7  , BE103 8.5  , EE100  6  , PH110 8.5  , EE110 8  , CS110 8  
+CHN17CS057  MA101 8  , PH100 8  , BE100 8  , BE10105 8.5  , BE103 9  , EE100 8  , PH110 9  , EE110 8.5  , CS110 10  
+CHN17CS058  MA101 7  , PH100 8  , BE100 7  , BE10105 8  , BE103 9  , EE100 7  , PH110 8.5  , EE110 8  , CS110 10  
+CHN17CS059  MA101 8  , PH100 8  , BE100  5  , BE10105 7  , BE103 8  , EE100 7  , PH110 8.5  , EE110 8.5  , CS110 8  
+CHN17CS060  MA101 7  , PH100 7  , BE100  0  , BE10105 8  , BE103 8.5  , EE100  6  , PH110 8  , EE110 8.5  , CS110 10  
+CHN17CS061  MA101 7  , PH100 7  , BE100 7  , BE10105 8  , BE103 8  , EE100 7  , PH110 9  , EE110 10  , CS110 8.5  
+CHN17CS062  MA101 9  , PH100 8  , BE100 7  , BE10105 8  , BE103 7  , EE100 7  , PH110 9  , EE110 8.5  , CS110 8  
+CHN17CS063  MA101 8  , PH100 8  , BE100 7  , BE10105 7  , BE103 9  , EE100 7  , PH110 8.5  , EE110 8.5  , CS110 10  
+CHN17CS064  MA101 8  , PH100 8  , BE100 7  , BE10105 8  , BE103 7  , EE100  6  , PH110 10  , EE110 7  , CS110 10  
+CHN17CS065  MA101  0  , PH100  0  , BE100  0  , BE10105  0  , BE103 7  , EE100  0  , PH110 8  , EE110 8  , CS110  6  
+CHN17CS066  MA101  0  , PH100  6  , BE100  6  , BE10105 7  , BE103 8.5  , EE100 7  , PH110 8  , EE110 8  , CS110 7  
+CHN17CS067  MA101 7  , PH100 7  , BE100  6  , BE10105 8  , BE103 8  , EE100 7  , PH110 8.5  , EE110 8  , CS110 8  
+CHN17CS068  MA101 7  , PH100 8  , BE100 7  , BE10105  6  , BE103 8  , EE100 7  , PH110 8.5  , EE110 8  , CS110 9  
+CHN17CS069  MA101 8  , PH100 8.5  , BE100 8  , BE10105 8.5  , BE103 9  , EE100 7  , PH110 8.5  , EE110 8  , CS110 10  
+CHN17CS070  MA101 8.5  , PH100 8.5  , BE100 8  , BE10105  6  , BE103 10  , EE100 7  , PH110 10  , EE110 9  , CS110 9  
+CHN17CS071  MA101  0  , PH100  0  , BE100  0  , BE10105 7  , BE103  6  , EE100  6  , PH110 8  , EE110 8  , CS110 10  
+CHN17CS072  MA101  0  , PH100 7  , BE100  0  , BE10105  6  , BE103  6  , EE100  6  , PH110 8  , EE110 7  , CS110 8  
+CHN17CS073  MA101  0  , PH100  0  , BE100  0  , BE10105  0  , BE103 7  , EE100  0  , PH110 8  , EE110 8  , CS110 7  
+CHN17CS074  MA101  0  , PH100  0  , BE100  0  , BE10105  0  , BE103 8  , EE100  0  , PH110 8  , EE110 8  , CS110 9  
+CHN17CS075  MA101 7  , PH100 7  , BE100  6  , BE10105  6  , BE103 8  , EE100  5  , PH110 8.5  , EE110 8  , CS110 9  
+CHN17CS076  MA101  0  , PH100 7  , BE100  6  , BE10105  0  , BE103  6  , EE100  5  , PH110 8  , EE110 8.5  , CS110 8.5  
+CHN17CS077  MA101 8  , PH100 8.5  , BE100 8  , BE10105 8.5  , BE103 8  , EE100 7  , PH110 9  , EE110 8  , CS110 10  
+CHN17CS078  MA101  0  , PH100  0  , BE100  0  , BE10105  0  , BE103  6  , EE100  0  , PH110 8  , EE110 8  , CS110 8  
+CHN17CS079  MA101 9  , PH100 8  , BE100 8  , BE10105 8  , BE103 8  , EE100 7  , PH110 9  , EE110 8.5  , CS110 10  
+CHN17CS080  MA101 8  , PH100 7  , BE100 8  , BE10105 9  , BE103 8  , EE100 7  , PH110 8.5  , EE110 9  , CS110 10  
+CHN17CS081  MA101 8  , PH100  6  , BE100  6  , BE10105 8  , BE103 7  , EE100  0  , PH110 8.5  , EE110 7  , CS110 7  
+CHN17CS082  MA101  6  , PH100  0  , BE100  0  , BE10105  6  , BE103 8  , EE100  6  , PH110 8  , EE110 8  , CS110 9  
+CHN17CS083  MA101 7  , PH100  6  , BE100  6  , BE10105 7  , BE103 7  , EE100  6  , PH110 8.5  , EE110 8  , CS110 10  
+CHN17CS084  MA101 7  , PH100 7  , BE100  6  , BE10105 8  , BE103 8  , EE100 7  , PH110 9  , EE110 8  , CS110 8.5  
+CHN17CS085  MA101 8.5  , PH100 10  , BE100 10  , BE10105 7  , BE103 8  , EE100 8  , PH110 9  , EE110 8  , CS110 10  
+CHN17CS086  MA101  0  , PH100  0  , BE100  0  , BE10105 7  , BE103 7  , EE100  6  , PH110 9  , EE110 8.5  , CS110 8.5  
+CHN17CS087  MA101  6  , PH100 7  , BE100  6  , BE10105 8.5  , BE103 8  , EE100 7  , PH110 9  , EE110 8  , CS110 8.5  
+CHN17CS088  MA101  0  , PH100  0  , BE100  0  , BE10105 8  , BE103 8  , EE100  6  , PH110 8  , EE110 8  , CS110 10  
+CHN17CS089  MA101 8.5  , PH100  6  , BE100 7  , BE10105  6  , BE103  6  , EE100  0  , PH110 8.5  , EE110 7  , CS110 10  
+CHN17CS090  MA101  0  , PH100  5  , BE100  0  , BE10105 8  , BE103 8  , EE100  6  , PH110 8  , EE110 9  , CS110 10  
+CHN17CS091  MA101 8  , PH100 9  , BE100 8  , BE10105 8.5  , BE103 8  , EE100 7  , PH110 9  , EE110 8  , CS110 9  
+CHN17CS092  MA101  0  , PH100 7  , BE100  0  , BE10105  6  , BE103 7  , EE100 7  , PH110 9  , EE110 8  , CS110 8  
+CHN17CS093  MA101 9  , PH100  6  , BE100 8  , BE10105 9  , BE103 7  , EE100  6  , PH110 8.5  , EE110 8  , CS110 9  
+CHN17CS094  MA101 8  , PH100 8  , BE100 7  , BE10105 9  , BE103 8  , EE100 8  , PH110 9  , EE110 8  , CS110 10  
+CHN17CS095  MA101  6  , PH100 8  , BE100 8  , BE10105 8  , BE103 8.5  , EE100 8  , PH110 9  , EE110 10  , CS110 10  
+CHN17CS096  MA101 7  , PH100  6  , BE100  5  , BE10105 7  , BE103 8  , EE100  0  , PH110 9  , EE110 8.5  , CS110 8.5  
+CHN17CS097  MA101 8.5  , PH100 8.5  , BE100 9  , BE10105 10  , BE103 8.5  , EE100 8.5  , PH110 9  , EE110 8  , CS110 10  
+CHN17CS098  MA101 10  , PH100 10  , BE100 8.5  , BE10105 8.5  , BE103 10  , EE100 8.5  , PH110 10  , EE110 8.5  , CS110 7  
+CHN17CS099  MA101 8  , PH100 7  , BE100  6  , BE10105 8  , BE103 8  , EE100  0  , PH110 9  , EE110 8  , CS110 8.5  
+CHN17CS100  MA101  0  , PH100 7  , BE100 7  , BE10105 7  , BE103 7  , EE100 7  , PH110 9  , EE110 9  , CS110 8.5  
+CHN17CS101  MA101  0  , PH100 7  , BE100 7  , BE10105 7  , BE103 8  , EE100  5  , PH110 9  , EE110 9  , CS110 10  
+CHN17CS102  MA101 7  , PH100  6  , BE100 7  , BE10105  0  , BE103 8  , EE100  5  , PH110 9  , EE110 8  , CS110 7  
+CHN17CS103  MA101 7  , PH100 8  , BE100 8  , BE10105 8  , BE103 8.5  , EE100 7  , PH110 9  , EE110 8  , CS110 10  
+CHN17CS104  MA101 7  , PH100 7  , BE100  6  , BE10105 9  , BE103 9  , EE100  6  , PH110 9  , EE110 8  , CS110 10  
+CHN17CS105  MA101 7  , PH100 7  , BE100 7  , BE10105 7  , BE103 8  , EE100 7  , PH110 9  , EE110 7  , CS110 8  
+CHN17CS106  MA101 7  , PH100  6  , BE100  0  , BE10105  0  , BE103 7  , EE100  5  , PH110 8  , EE110 9  , CS110 10  
+CHN17CS107  MA101  0  , PH100  0  , BE100  0  , BE10105  0  , BE103 7  , EE100  0  , PH110 8  , EE110 8  , CS110 8  
+CHN17CS108  MA101 8  , PH100 8  , BE100  6  , BE10105  6  , BE103 8  , EE100 7  , PH110 8.5  , EE110 8  , CS110 8  
+CHN17CS109  MA101  0  , PH100  0  , BE100  0  , BE10105  0  , BE103  6  , EE100  0  , PH110 8  , EE110 8.5  , CS110 8  
+CHN17CS110  MA101  6  , PH100 8  , BE100  6  , BE10105  6  , BE103 8.5  , EE100 7  , PH110 8.5  , EE110 8  , CS110 8.5  
+CHN17CS111  MA101 7  , PH100 8  , BE100  0  , BE10105 9  , BE103 9  , EE100 7  , PH110 9  , EE110 8  , CS110 9  
+CHN17CS112  MA101 8  , PH100 8  , BE100  6  , BE10105  6  , BE103 8  , EE100 7  , PH110 9  , EE110 8.5  , CS110 8  
+CHN17CS113  MA101  0  , PH100 7  , BE100 7  , BE10105  6  , BE103 8  , EE100  6  , PH110 8  , EE110 9  , CS110 8  
+CHN17CS114  MA101 7  , PH100 8  , BE100 7  , BE10105  6  , BE103 8  , EE100 7  , PH110 9  , EE110 8  , CS110 10  
+CHN17CS115  MA101 7  , PH100 8  , BE100 8.5  , BE10105 8  , BE103 8.5  , EE100 7  , PH110 10  , EE110 9  , CS110 10  
+CHN17CS116  MA101  0  , PH100 8.5  , BE100 7  , BE10105 8.5  , BE103 9  , EE100 7  , PH110 10  , EE110 8  , CS110 10  
+CHN17CS117  MA101 8  , PH100 7  , BE100 7  , BE10105 8  , BE103 8.5  , EE100  6  , PH110 10  , EE110 9  , CS110 10  
+CHN17CS118  MA101 7  , PH100 8.5  , BE100 8.5  , BE10105  6  , BE103 8  , EE100 8  , PH110 10  , EE110 10  , CS110 10  
+CHN17CS119  MA101  0  , PH100  6  , BE100  0  , BE10105 7  , BE103 7  , EE100  6  , PH110 9  , EE110 8  , CS110 10  
+CHN17CS120  MA101  0  , PH100  0  , BE100  0  , BE10105  0  , BE103 8  , EE100  6  , PH110 8.5  , EE110 8  , CS110 8   $ 
+$ cp s4d.txt
+cp: missing destination file operand after 's4d.txt'
+Try 'cp --help' for more information.
+$ cp s4d.txt Downloads
+cp: cannot stat 's4d.txt': No such file or directory
+$ history 10
+-sh: 15: history: not found
+$ cp result.txt dbatch.txt
+$ ls
+dbatch.txt  examples.desktop  result.txt  test
+$ mv dbatch.txt s4d.txt
+$ ls
+examples.desktop  result.txt  s4d.txt  test
+$ du
+4	./.cache
+4	./test
+40	./.config/plank/dock1/launchers
+44	./.config/plank/dock1
+48	./.config/plank
+52	./.config
+124	.
+$ nano0 
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?12l[?25h[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.5.3                New Buffer                                      [23;1H^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[3d[1;71H(B[0;7mModified
+[3d(B[mhello world
+[22d(B[0;7mFile Name to Write:                                                             [23;14H(B[m   (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append      (B[0;7mM-B(B[m Backup File[K[24;2H(B[0;7mC(B[m Cancel       (B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[K[22;21H(B[0;7ms(B[m(B[0;7ma(B[m(B[0;7mm(B[m(B[0;7mp(B[m(B[0;7mk(B[m(B[0;7ml(B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7mt(B[m(B[0;7me(B[m(B[0;7ms(B[m(B[0;7mt(B[m(B[0;7m.(B[m(B[0;7mt(B[m(B[0;7mx(B[m(B[0;7mx(B[m(B[0;7m (B[m(B[0;7mt(B[m[?25l[32G[39;49m(B[m[1K (B[0;7m[ Wrote 1 line ](B[m[K[3;12H[?12l[?25h[1;31H(B[0;7mFile: test.txt[1;71H        [23;14H^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3;12H
+[22d[J[24;80H[24;1H[?1049l
+[?1l>$ ls
+examples.desktop  result.txt  s4d.txt  test  test.txt
+$ cat test.txt
+hello world
+$ 
+$ exit
+Connection to 192.168.0.30 closed.
+
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ scp cs[K[K[K[K[K[Kssh cecs[K[K[K[Kcs17d48@[K@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d48@192.168.0.30's password: 
+Permission denied, please try again.
+
+cs17d48@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+278 packages can be updated.
+0 updates are security updates.
+
+Last login: Thur Mar 21 11:15:48 2019 from 192.168.0.130
+
+$ scp     ls
+examples.desktop  result.txt  s4d.txt  test  test.txt
+$ rm s4d.txt
+$ ls
+examples.desktop  result.txt  test  test.txt
+$ scp result.txt s4d.txt
+$ ls
+examples.desktop  result.txt  s4d.txt  test  test.txt
+$ exit
+Connection to 192.168.0.30 closed.
+
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ exit
+exit
+
+Script done on Thursday 21 March 2019 11:31:05 AM IST

@@ -1,0 +1,100 @@
+Script started on Thursday 21 March 2019 09:19:57 AM IST
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ sftp cs17d48@14[K92.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d48@192.168.0.30's password: 
+Connected to 192.168.0.30.
+sftp> ls
+examples.desktop    
+sftp> put result.txt
+Uploading result.txt to /home/cs17d04/result.txt
+
+result.txt                                      0%    0     0.0KB/s   --:-- ETA
+result.txt                                    100%   14KB  13.7KB/s   00:00    
+sftp> ls
+examples.desktop    result.txt          
+sftp> get result,[K.y[Kxttxtxt
+Fetching /home/cs17d48/result.txt to result.txt
+
+/home/cs17d48/result.txt                        0%    0     0.0KB/s   --:-- ETA
+/home/cs17d48/result.txt                      100%   14KB  13.7KB/s   00:00    
+sftp> ipwdipwd[Klpwdpwd
+Local working directory: /home/s4d1
+sftp> pwd
+Remote working directory: /home/cs17d04
+sftp> version
+SFTP protocol version 3
+sftp> help
+Available commands:
+bye                                Quit sftp
+cd path                            Change remote directory to 'path'
+chgrp grp path                     Change group of file 'path' to 'grp'
+chmod mode path                    Change permissions of file 'path' to 'mode'
+chown own path                     Change owner of file 'path' to 'own'
+df [-hi] [path]                    Display statistics for current directory or
+                                   filesystem containing 'path'
+exit                               Quit sftp
+get [-Ppr] remote [local]          Download file
+reget remote [local]		Resume download file
+help                               Display this help text
+lcd path                           Change local directory to 'path'
+lls [ls-options [path]]            Display local directory listing
+lmkdir path                        Create local directory
+ln [-s] oldpath newpath            Link remote file (-s for symlink)
+lpwd                               Print local working directory
+ls [-1afhlnrSt] [path]             Display remote directory listing
+lumask umask                       Set local umask to 'umask'
+mkdir path                         Create remote directory
+progress                           Toggle display of progress meter
+put [-Ppr] local [remote]          Upload file
+pwd                                Display remote working directory
+quit                               Quit sftp
+rename oldpath newpath             Rename remote file
+rm path                            Delete remote file
+rmdir path                         Remove remote directory
+symlink oldpath newpath            Symlink remote file
+version                            Show SFTP version
+!command                           Execute 'command' in local shell
+!                                  Escape to local shell
+?                                  Synonym for help
+sftp> mkdir test
+sftp> cd tst
+Couldn't stat remote file: No such file or directory
+
+sftp> ls
+examples.desktop    result.txt          test                
+sftp> 
+sftp> ls
+examples.desktop    result.txt          test                
+sftp> lls
+abc.txt			    file1.txt	     result1.txt	roll9.txt
+a.txt			    file2.txt	     result2.pdf	s1final.txt
+A.txt			    file.txt	     result2.txt	s1_s2.t
+b.txt			    file.txt~	     result_CHN(1).pdf	s1_s2.txt
+B.txt			    final_cgpa.txt   result_CHN.pdf	s1sgpa.txt
+cccs17d48.14.02.19.txt	    lan.txt	     result_CHN.txt	s2final.txt
+ceccs17d48.14.03.19(1).txt  lib.txt	     result_CHN.txt~	s2sgpa.txt
+ceccs17d48.21.03.19.txt     linux.txt	     results2.txt	s4dfinal.txt
+ceccs17d48.14.02.19.txt     Music	     result.txt		s4d.txt
+ceccs17d48.21.03.19.txt     name.txt	     resu.txt		sgpas2.txt
+ceccs17d48.14.02.19.txt     n.txt	     roll10.txt		sgpa.txt
+ceccs17d48		    output1.txt      roll11.txt		sort.txt
+CECCS17D48		    output.txt	     roll12.txt		task1.sh
+ceccs17d48.14.03.19	    Pictures	     roll1.txt		task1.sh~
+cgpa.txt		    Public	     roll2.txt		task5.txt
+C.txt			    redirection.txt  roll3.txt		task.sh~
+Desktop			    reg1.txt	     roll4.txt		Templates
+Documents		    reg2.txt	     roll5.txt		Untitled Folder
+Downloads		    reg.txt	     roll6.txt		Videos
+error.txt		    res.txt	     roll7.txt		x
+examples.desktop	    result1.pdf      roll8.txt		z.txt
+sftp> ls
+examples.desktop    result.txt          test                
+sftp> exit
+]0;s4d1@ceclab2-Veriton-Series: ~s4d1@ceclab2-Veriton-Series:~$ exit
+exit
+
+Script done on Monday 25 March 2019 09:27:06 AM IST

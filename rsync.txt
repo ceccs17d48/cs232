@@ -1,0 +1,43 @@
+Script started on Thursday 04 April 2019 01:12:40 PM IST
+
+clab1@clab1-HP-Compaq-dc7900-Convertible-Minitower:~$ rsync -zvh cs17d48@192.168.0.30:/home/cs17d04/s4d.txt/home/CLAB1
+
+
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d48@192.168.0.30's password: 
+rsync: mkdir "/home/CLAB1" failed: Permission denied (13)
+rsync error: error in file IO (code 11) at main.c(674) [Receiver=3.1.1]
+]0;clab1@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32mclab1@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m
+clab1@clab1-HP-Compaq-dc7900-Convertible-Minitower:~$ rsync -zvh cs17d48@192.168.0.30:/home/cs17d04/s4d.txt /home/cec/
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d48@192.168.0.30's password: 
+s4d.txt
+
+sent 68 bytes  received 81 bytes  19.54 bytes/sec
+total size is 3.13K  speedup is 21.34
+clab1@clab1-HP-Compaq-dc7900-Convertible-Minitower:~$ rsync -zvh s4d.txt cs17d48@192.168.0.30:/home/cs17d48
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs17d48@192.168.0.30's password: 
+s4d.txt
+
+sent 81 bytes  received 65 bytes  26.55 bytes/sec
+total size is 3.13K  speedup is 21.46
+clab1@clab1-HP-Compaq-dc7900-Convertible-Minitower:~$ 
+
+$ exit
+exit
+
+
+
+Script done on Thursday 04 April 2019 01:14:48 PM IST
